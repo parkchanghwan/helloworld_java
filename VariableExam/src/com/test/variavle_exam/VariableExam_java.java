@@ -1,0 +1,9 @@
+package com.test.variavle_exam;
+
+public class VariableExam_java {
+	public static void main(String args[]) {
+		int value = 10;
+		int result = value+10;
+		System.out.println(result);
+	}
+}

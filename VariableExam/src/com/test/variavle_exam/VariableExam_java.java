@@ -8,16 +8,16 @@ public class VariableExam_java {
 	public static void type_a() {
 		
 		int score = 0;
-		System.out.println("³²ÀÚA Å½»öÀ» ½ÃÀÛÇÕ´Ï´Ù. \n\n");
+		System.out.println("ë‚¨ìA íƒìƒ‰ì„ ì‹œì‘í•©ë‹ˆë‹¤. \n\n");
 		
-		System.out.println("Q1. ±×¿Í ½Ä»ç¸¦ ÇÏ´ø µµÁß, ±×ÀÇ ÀÌ¿¡ ³¤ À½½Ä¹°À» º¸¾Ò´Ù. ³ª´Â ¾î¶»°Ô ÇØ¾ß ÇÒ±î? \n");
-		System.out.println("\t1. ¹Ù·Î »ç½ÇÀ» ¸»ÇØ ÁØ´Ù. \n");
-		System.out.println("\t2. ´ëÃæ µ¹·Á¼­ ¸»ÇØ ÁØ´Ù. \n");
-		System.out.println("\t3. »ç¶û½º·´°Ô Á÷Á¢ »©ÁØ´Ù. \n");
-		System.out.println("\t4. ¹«½ÃÇÑ´Ù. \n\n");
+		System.out.println("Q1. ê·¸ì™€ ì‹ì‚¬ë¥¼ í•˜ë˜ ë„ì¤‘, ê·¸ì˜ ì´ì— ë‚€ ìŒì‹ë¬¼ì„ ë³´ì•˜ë‹¤. ë‚˜ëŠ” ì–´ë–»ê²Œ í•´ì•¼ í• ê¹Œ? \n");
+		System.out.println("\t1. ë°”ë¡œ ì‚¬ì‹¤ì„ ë§í•´ ì¤€ë‹¤. \n");
+		System.out.println("\t2. ëŒ€ì¶© ëŒë ¤ì„œ ë§í•´ ì¤€ë‹¤. \n");
+		System.out.println("\t3. ì‚¬ë‘ìŠ¤ëŸ½ê²Œ ì§ì ‘ ë¹¼ì¤€ë‹¤. \n");
+		System.out.println("\t4. ë¬´ì‹œí•œë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -40,17 +40,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ2. À½½ÄÀ» ´Ù ¸Ô°í ±×°¡ °è»êÀ» Çß´Ù. ÀÌ ¶§ ³ª´Â ¾î¶»°Ô Çàµ¿À» ÇÒ±î? \n");
-		System.out.println("\t1. \"Ä¿ÇÇ´Â Á¦°¡ »ì°Ô¿ä\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t2. \"Àß ¸Ô¾ú¾î¿ä\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t3. \"°èÁÂ¸¦ ºÒ·¯ÁÖ¼¼¿ä.\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t4. ±×³É Á¶¿ëÈ÷ ±â´Ù¸°´Ù. \n\n");
+		System.out.println("\n\nQ2. ìŒì‹ì„ ë‹¤ ë¨¹ê³  ê·¸ê°€ ê³„ì‚°ì„ í–ˆë‹¤. ì´ ë•Œ ë‚˜ëŠ” ì–´ë–»ê²Œ í–‰ë™ì„ í• ê¹Œ? \n");
+		System.out.println("\t1. \"ì»¤í”¼ëŠ” ì œê°€ ì‚´ê²Œìš”\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t2. \"ì˜ ë¨¹ì—ˆì–´ìš”\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t3. \"ê³„ì¢Œë¥¼ ë¶ˆëŸ¬ì£¼ì„¸ìš”.\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t4. ê·¸ëƒ¥ ì¡°ìš©íˆ ê¸°ë‹¤ë¦°ë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -73,17 +73,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ3. ½Ä»ç¸¦ ³¡³½ ÈÄ, ¾îµğ·Î °¡¾ßÇÒ±î? \n");
-		System.out.println("\t1. ÀÌ¾ß±â¸¦ ´õ ³ª´­ ¼ö ÀÖ´Â Ä«Æä \n");
-		System.out.println("\t2. Á» ´õ °¡±î¿öÁú ¼ö ÀÖ´Â ¼úÁı \n");
-		System.out.println("\t3. ³ªÀÇ ¸Å·ÂÀ» º¸¿©ÁÙ ¼ö ÀÖ´Â ³ë·¡¹æ \n");
-		System.out.println("\t4. ±×¿Í ¸ğµç °ÍÀ» ÇÒ ¼ö ÀÖ´Â ±× ¹æ... \n\n");
+		System.out.println("\n\nQ3. ì‹ì‚¬ë¥¼ ëë‚¸ í›„, ì–´ë””ë¡œ ê°€ì•¼í• ê¹Œ? \n");
+		System.out.println("\t1. ì´ì•¼ê¸°ë¥¼ ë” ë‚˜ëˆŒ ìˆ˜ ìˆëŠ” ì¹´í˜ \n");
+		System.out.println("\t2. ì¢€ ë” ê°€ê¹Œì›Œì§ˆ ìˆ˜ ìˆëŠ” ìˆ ì§‘ \n");
+		System.out.println("\t3. ë‚˜ì˜ ë§¤ë ¥ì„ ë³´ì—¬ì¤„ ìˆ˜ ìˆëŠ” ë…¸ë˜ë°© \n");
+		System.out.println("\t4. ê·¸ì™€ ëª¨ë“  ê²ƒì„ í•  ìˆ˜ ìˆëŠ” ê·¸ ë°©... \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -106,17 +106,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ4. µ¥ÀÌÆ®¸¦ ³¡³»°í Áı¿¡ °¡¾ßÇÒ ½Ã°£ÀÌ´Ù. ¸¶Ä§ Áı ¹æÇâÀÌ °°Àºµ¥ ³ª´Â ¾î¶»°Ô ÇØ¾ßÇÒ±î? \n");
-		System.out.println("\t1. \"ÇÑ ÀÜ ÇÒ·¡¿ä~?\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t2. ´ÙÀ½ ¸¸³²À» ±â¾àÇÏ±â À§ÇØ °°ÀÌ °É¾î°£´Ù. \n");
-		System.out.println("\t3. ¹Ğ´çÀ» ÇÏ±â À§ÇØ ¾à¼ÓÀÌ ÀÖ´Ù°í ±×¸¦ È¥ÀÚ º¸³½´Ù. \n");
-		System.out.println("\t4. Â÷°¡ ²÷±ä °Í °°´Ù°í °ÅÁş¸»À» ÇÑ´Ù. \n\n");
+		System.out.println("\n\nQ4. ë°ì´íŠ¸ë¥¼ ëë‚´ê³  ì§‘ì— ê°€ì•¼í•  ì‹œê°„ì´ë‹¤. ë§ˆì¹¨ ì§‘ ë°©í–¥ì´ ê°™ì€ë° ë‚˜ëŠ” ì–´ë–»ê²Œ í•´ì•¼í• ê¹Œ? \n");
+		System.out.println("\t1. \"í•œ ì” í• ë˜ìš”~?\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t2. ë‹¤ìŒ ë§Œë‚¨ì„ ê¸°ì•½í•˜ê¸° ìœ„í•´ ê°™ì´ ê±¸ì–´ê°„ë‹¤. \n");
+		System.out.println("\t3. ë°€ë‹¹ì„ í•˜ê¸° ìœ„í•´ ì•½ì†ì´ ìˆë‹¤ê³  ê·¸ë¥¼ í˜¼ì ë³´ë‚¸ë‹¤. \n");
+		System.out.println("\t4. ì°¨ê°€ ëŠê¸´ ê²ƒ ê°™ë‹¤ê³  ê±°ì§“ë§ì„ í•œë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -139,17 +139,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ5. Çì¾îÁö°í ³­ µÚ ±×¿¡°Ô ¸Ş¼¼Áö°¡ ¿Ô´Ù. ³ª´Â ¾î¶»°Ô ÇÒ±î? \n");
-		System.out.println("\t1. ÀüÈ­¸¦ ÇÑ´Ù. \n");
-		System.out.println("\t2. ³»ÀÏ ´äÀåÀ» ÇÑ´Ù. \n");
-		System.out.println("\t3. ¼ÖÁ÷ÇÑ ³ªÀÇ °¨Á¤À» ¸»ÇÑ´Ù. \n");
-		System.out.println("\t4. ÀĞ°í ½Ê´Â´Ù. \n\n");
+		System.out.println("\n\nQ5. í—¤ì–´ì§€ê³  ë‚œ ë’¤ ê·¸ì—ê²Œ ë©”ì„¸ì§€ê°€ ì™”ë‹¤. ë‚˜ëŠ” ì–´ë–»ê²Œ í• ê¹Œ? \n");
+		System.out.println("\t1. ì „í™”ë¥¼ í•œë‹¤. \n");
+		System.out.println("\t2. ë‚´ì¼ ë‹µì¥ì„ í•œë‹¤. \n");
+		System.out.println("\t3. ì†”ì§í•œ ë‚˜ì˜ ê°ì •ì„ ë§í•œë‹¤. \n");
+		System.out.println("\t4. ì½ê³  ì‹­ëŠ”ë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -172,25 +172,25 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("Å½»öÀÌ ³¡³µ½À´Ï´Ù. ´ç½ÅÀÇ Á¡¼ö´Â " + score + "Á¡ ÀÔ´Ï´Ù.");
+		System.out.println("íƒìƒ‰ì´ ëë‚¬ìŠµë‹ˆë‹¤. ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” " + score + "ì  ì…ë‹ˆë‹¤.");
 	}
 	
 	public static void type_b() {
 		
 		int score = 0;
-		System.out.println("³²ÀÚA Å½»öÀ» ½ÃÀÛÇÕ´Ï´Ù. \n\n");
+		System.out.println("ë‚¨ìA íƒìƒ‰ì„ ì‹œì‘í•©ë‹ˆë‹¤. \n\n");
 		
-		System.out.println("Q1. ±×¿Í ½Ä»ç¸¦ ÇÏ´ø µµÁß, ±×ÀÇ ÀÌ¿¡ ³¤ À½½Ä¹°À» º¸¾Ò´Ù. ³ª´Â ¾î¶»°Ô ÇØ¾ß ÇÒ±î? \n");
-		System.out.println("\t1. ¹Ù·Î »ç½ÇÀ» ¸»ÇØ ÁØ´Ù. \n");
-		System.out.println("\t2. ´ëÃæ µ¹·Á¼­ ¸»ÇØ ÁØ´Ù. \n");
-		System.out.println("\t3. »ç¶û½º·´°Ô Á÷Á¢ »©ÁØ´Ù. \n");
-		System.out.println("\t4. ¹«½ÃÇÑ´Ù. \n\n");
+		System.out.println("Q1. ê·¸ì™€ ì‹ì‚¬ë¥¼ í•˜ë˜ ë„ì¤‘, ê·¸ì˜ ì´ì— ë‚€ ìŒì‹ë¬¼ì„ ë³´ì•˜ë‹¤. ë‚˜ëŠ” ì–´ë–»ê²Œ í•´ì•¼ í• ê¹Œ? \n");
+		System.out.println("\t1. ë°”ë¡œ ì‚¬ì‹¤ì„ ë§í•´ ì¤€ë‹¤. \n");
+		System.out.println("\t2. ëŒ€ì¶© ëŒë ¤ì„œ ë§í•´ ì¤€ë‹¤. \n");
+		System.out.println("\t3. ì‚¬ë‘ìŠ¤ëŸ½ê²Œ ì§ì ‘ ë¹¼ì¤€ë‹¤. \n");
+		System.out.println("\t4. ë¬´ì‹œí•œë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -213,17 +213,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ2. À½½ÄÀ» ´Ù ¸Ô°í ±×°¡ °è»êÀ» Çß´Ù. ÀÌ ¶§ ³ª´Â ¾î¶»°Ô Çàµ¿À» ÇÒ±î? \n");
-		System.out.println("\t1. \"Ä¿ÇÇ´Â Á¦°¡ »ì°Ô¿ä\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t2. \"Àß ¸Ô¾ú¾î¿ä\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t3. \"°èÁÂ¸¦ ºÒ·¯ÁÖ¼¼¿ä.\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t4. ±×³É Á¶¿ëÈ÷ ±â´Ù¸°´Ù. \n\n");
+		System.out.println("\n\nQ2. ìŒì‹ì„ ë‹¤ ë¨¹ê³  ê·¸ê°€ ê³„ì‚°ì„ í–ˆë‹¤. ì´ ë•Œ ë‚˜ëŠ” ì–´ë–»ê²Œ í–‰ë™ì„ í• ê¹Œ? \n");
+		System.out.println("\t1. \"ì»¤í”¼ëŠ” ì œê°€ ì‚´ê²Œìš”\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t2. \"ì˜ ë¨¹ì—ˆì–´ìš”\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t3. \"ê³„ì¢Œë¥¼ ë¶ˆëŸ¬ì£¼ì„¸ìš”.\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t4. ê·¸ëƒ¥ ì¡°ìš©íˆ ê¸°ë‹¤ë¦°ë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -246,17 +246,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ3. ½Ä»ç¸¦ ³¡³½ ÈÄ, ¾îµğ·Î °¡¾ßÇÒ±î? \n");
-		System.out.println("\t1. ÀÌ¾ß±â¸¦ ´õ ³ª´­ ¼ö ÀÖ´Â Ä«Æä \n");
-		System.out.println("\t2. Á» ´õ °¡±î¿öÁú ¼ö ÀÖ´Â ¼úÁı \n");
-		System.out.println("\t3. ³ªÀÇ ¸Å·ÂÀ» º¸¿©ÁÙ ¼ö ÀÖ´Â ³ë·¡¹æ \n");
-		System.out.println("\t4. ±×¿Í ¸ğµç °ÍÀ» ÇÒ ¼ö ÀÖ´Â ±× ¹æ... \n\n");
+		System.out.println("\n\nQ3. ì‹ì‚¬ë¥¼ ëë‚¸ í›„, ì–´ë””ë¡œ ê°€ì•¼í• ê¹Œ? \n");
+		System.out.println("\t1. ì´ì•¼ê¸°ë¥¼ ë” ë‚˜ëˆŒ ìˆ˜ ìˆëŠ” ì¹´í˜ \n");
+		System.out.println("\t2. ì¢€ ë” ê°€ê¹Œì›Œì§ˆ ìˆ˜ ìˆëŠ” ìˆ ì§‘ \n");
+		System.out.println("\t3. ë‚˜ì˜ ë§¤ë ¥ì„ ë³´ì—¬ì¤„ ìˆ˜ ìˆëŠ” ë…¸ë˜ë°© \n");
+		System.out.println("\t4. ê·¸ì™€ ëª¨ë“  ê²ƒì„ í•  ìˆ˜ ìˆëŠ” ê·¸ ë°©... \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -279,17 +279,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ4. µ¥ÀÌÆ®¸¦ ³¡³»°í Áı¿¡ °¡¾ßÇÒ ½Ã°£ÀÌ´Ù. ¸¶Ä§ Áı ¹æÇâÀÌ °°Àºµ¥ ³ª´Â ¾î¶»°Ô ÇØ¾ßÇÒ±î? \n");
-		System.out.println("\t1. \"ÇÑ ÀÜ ÇÒ·¡¿ä~?\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t2. ´ÙÀ½ ¸¸³²À» ±â¾àÇÏ±â À§ÇØ °°ÀÌ °É¾î°£´Ù. \n");
-		System.out.println("\t3. ¹Ğ´çÀ» ÇÏ±â À§ÇØ ¾à¼ÓÀÌ ÀÖ´Ù°í ±×¸¦ È¥ÀÚ º¸³½´Ù. \n");
-		System.out.println("\t4. Â÷°¡ ²÷±ä °Í °°´Ù°í °ÅÁş¸»À» ÇÑ´Ù. \n\n");
+		System.out.println("\n\nQ4. ë°ì´íŠ¸ë¥¼ ëë‚´ê³  ì§‘ì— ê°€ì•¼í•  ì‹œê°„ì´ë‹¤. ë§ˆì¹¨ ì§‘ ë°©í–¥ì´ ê°™ì€ë° ë‚˜ëŠ” ì–´ë–»ê²Œ í•´ì•¼í• ê¹Œ? \n");
+		System.out.println("\t1. \"í•œ ì” í• ë˜ìš”~?\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t2. ë‹¤ìŒ ë§Œë‚¨ì„ ê¸°ì•½í•˜ê¸° ìœ„í•´ ê°™ì´ ê±¸ì–´ê°„ë‹¤. \n");
+		System.out.println("\t3. ë°€ë‹¹ì„ í•˜ê¸° ìœ„í•´ ì•½ì†ì´ ìˆë‹¤ê³  ê·¸ë¥¼ í˜¼ì ë³´ë‚¸ë‹¤. \n");
+		System.out.println("\t4. ì°¨ê°€ ëŠê¸´ ê²ƒ ê°™ë‹¤ê³  ê±°ì§“ë§ì„ í•œë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -312,17 +312,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ5. Çì¾îÁö°í ³­ µÚ ±×¿¡°Ô ¸Ş¼¼Áö°¡ ¿Ô´Ù. ³ª´Â ¾î¶»°Ô ÇÒ±î? \n");
-		System.out.println("\t1. ÀüÈ­¸¦ ÇÑ´Ù. \n");
-		System.out.println("\t2. ³»ÀÏ ´äÀåÀ» ÇÑ´Ù. \n");
-		System.out.println("\t3. ¼ÖÁ÷ÇÑ ³ªÀÇ °¨Á¤À» ¸»ÇÑ´Ù. \n");
-		System.out.println("\t4. ÀĞ°í ½Ê´Â´Ù. \n\n");
+		System.out.println("\n\nQ5. í—¤ì–´ì§€ê³  ë‚œ ë’¤ ê·¸ì—ê²Œ ë©”ì„¸ì§€ê°€ ì™”ë‹¤. ë‚˜ëŠ” ì–´ë–»ê²Œ í• ê¹Œ? \n");
+		System.out.println("\t1. ì „í™”ë¥¼ í•œë‹¤. \n");
+		System.out.println("\t2. ë‚´ì¼ ë‹µì¥ì„ í•œë‹¤. \n");
+		System.out.println("\t3. ì†”ì§í•œ ë‚˜ì˜ ê°ì •ì„ ë§í•œë‹¤. \n");
+		System.out.println("\t4. ì½ê³  ì‹­ëŠ”ë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -345,24 +345,24 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("Å½»öÀÌ ³¡³µ½À´Ï´Ù. ´ç½ÅÀÇ Á¡¼ö´Â " + score + "Á¡ ÀÔ´Ï´Ù.");
+		System.out.println("íƒìƒ‰ì´ ëë‚¬ìŠµë‹ˆë‹¤. ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” " + score + "ì  ì…ë‹ˆë‹¤.");
 	}
 	
 	public static void type_c() {
 		int score = 0;
-		System.out.println("³²ÀÚA Å½»öÀ» ½ÃÀÛÇÕ´Ï´Ù. \n\n");
+		System.out.println("ë‚¨ìA íƒìƒ‰ì„ ì‹œì‘í•©ë‹ˆë‹¤. \n\n");
 		
-		System.out.println("Q1. ±×¿Í ½Ä»ç¸¦ ÇÏ´ø µµÁß, ±×ÀÇ ÀÌ¿¡ ³¤ À½½Ä¹°À» º¸¾Ò´Ù. ³ª´Â ¾î¶»°Ô ÇØ¾ß ÇÒ±î? \n");
-		System.out.println("\t1. ¹Ù·Î »ç½ÇÀ» ¸»ÇØ ÁØ´Ù. \n");
-		System.out.println("\t2. ´ëÃæ µ¹·Á¼­ ¸»ÇØ ÁØ´Ù. \n");
-		System.out.println("\t3. »ç¶û½º·´°Ô Á÷Á¢ »©ÁØ´Ù. \n");
-		System.out.println("\t4. ¹«½ÃÇÑ´Ù. \n\n");
+		System.out.println("Q1. ê·¸ì™€ ì‹ì‚¬ë¥¼ í•˜ë˜ ë„ì¤‘, ê·¸ì˜ ì´ì— ë‚€ ìŒì‹ë¬¼ì„ ë³´ì•˜ë‹¤. ë‚˜ëŠ” ì–´ë–»ê²Œ í•´ì•¼ í• ê¹Œ? \n");
+		System.out.println("\t1. ë°”ë¡œ ì‚¬ì‹¤ì„ ë§í•´ ì¤€ë‹¤. \n");
+		System.out.println("\t2. ëŒ€ì¶© ëŒë ¤ì„œ ë§í•´ ì¤€ë‹¤. \n");
+		System.out.println("\t3. ì‚¬ë‘ìŠ¤ëŸ½ê²Œ ì§ì ‘ ë¹¼ì¤€ë‹¤. \n");
+		System.out.println("\t4. ë¬´ì‹œí•œë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -385,17 +385,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ2. À½½ÄÀ» ´Ù ¸Ô°í ±×°¡ °è»êÀ» Çß´Ù. ÀÌ ¶§ ³ª´Â ¾î¶»°Ô Çàµ¿À» ÇÒ±î? \n");
-		System.out.println("\t1. \"Ä¿ÇÇ´Â Á¦°¡ »ì°Ô¿ä\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t2. \"Àß ¸Ô¾ú¾î¿ä\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t3. \"°èÁÂ¸¦ ºÒ·¯ÁÖ¼¼¿ä.\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t4. ±×³É Á¶¿ëÈ÷ ±â´Ù¸°´Ù. \n\n");
+		System.out.println("\n\nQ2. ìŒì‹ì„ ë‹¤ ë¨¹ê³  ê·¸ê°€ ê³„ì‚°ì„ í–ˆë‹¤. ì´ ë•Œ ë‚˜ëŠ” ì–´ë–»ê²Œ í–‰ë™ì„ í• ê¹Œ? \n");
+		System.out.println("\t1. \"ì»¤í”¼ëŠ” ì œê°€ ì‚´ê²Œìš”\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t2. \"ì˜ ë¨¹ì—ˆì–´ìš”\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t3. \"ê³„ì¢Œë¥¼ ë¶ˆëŸ¬ì£¼ì„¸ìš”.\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t4. ê·¸ëƒ¥ ì¡°ìš©íˆ ê¸°ë‹¤ë¦°ë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -418,17 +418,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ3. ½Ä»ç¸¦ ³¡³½ ÈÄ, ¾îµğ·Î °¡¾ßÇÒ±î? \n");
-		System.out.println("\t1. ÀÌ¾ß±â¸¦ ´õ ³ª´­ ¼ö ÀÖ´Â Ä«Æä \n");
-		System.out.println("\t2. Á» ´õ °¡±î¿öÁú ¼ö ÀÖ´Â ¼úÁı \n");
-		System.out.println("\t3. ³ªÀÇ ¸Å·ÂÀ» º¸¿©ÁÙ ¼ö ÀÖ´Â ³ë·¡¹æ \n");
-		System.out.println("\t4. ±×¿Í ¸ğµç °ÍÀ» ÇÒ ¼ö ÀÖ´Â ±× ¹æ... \n\n");
+		System.out.println("\n\nQ3. ì‹ì‚¬ë¥¼ ëë‚¸ í›„, ì–´ë””ë¡œ ê°€ì•¼í• ê¹Œ? \n");
+		System.out.println("\t1. ì´ì•¼ê¸°ë¥¼ ë” ë‚˜ëˆŒ ìˆ˜ ìˆëŠ” ì¹´í˜ \n");
+		System.out.println("\t2. ì¢€ ë” ê°€ê¹Œì›Œì§ˆ ìˆ˜ ìˆëŠ” ìˆ ì§‘ \n");
+		System.out.println("\t3. ë‚˜ì˜ ë§¤ë ¥ì„ ë³´ì—¬ì¤„ ìˆ˜ ìˆëŠ” ë…¸ë˜ë°© \n");
+		System.out.println("\t4. ê·¸ì™€ ëª¨ë“  ê²ƒì„ í•  ìˆ˜ ìˆëŠ” ê·¸ ë°©... \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -451,17 +451,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ4. µ¥ÀÌÆ®¸¦ ³¡³»°í Áı¿¡ °¡¾ßÇÒ ½Ã°£ÀÌ´Ù. ¸¶Ä§ Áı ¹æÇâÀÌ °°Àºµ¥ ³ª´Â ¾î¶»°Ô ÇØ¾ßÇÒ±î? \n");
-		System.out.println("\t1. \"ÇÑ ÀÜ ÇÒ·¡¿ä~?\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t2. ´ÙÀ½ ¸¸³²À» ±â¾àÇÏ±â À§ÇØ °°ÀÌ °É¾î°£´Ù. \n");
-		System.out.println("\t3. ¹Ğ´çÀ» ÇÏ±â À§ÇØ ¾à¼ÓÀÌ ÀÖ´Ù°í ±×¸¦ È¥ÀÚ º¸³½´Ù. \n");
-		System.out.println("\t4. Â÷°¡ ²÷±ä °Í °°´Ù°í °ÅÁş¸»À» ÇÑ´Ù. \n\n");
+		System.out.println("\n\nQ4. ë°ì´íŠ¸ë¥¼ ëë‚´ê³  ì§‘ì— ê°€ì•¼í•  ì‹œê°„ì´ë‹¤. ë§ˆì¹¨ ì§‘ ë°©í–¥ì´ ê°™ì€ë° ë‚˜ëŠ” ì–´ë–»ê²Œ í•´ì•¼í• ê¹Œ? \n");
+		System.out.println("\t1. \"í•œ ì” í• ë˜ìš”~?\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t2. ë‹¤ìŒ ë§Œë‚¨ì„ ê¸°ì•½í•˜ê¸° ìœ„í•´ ê°™ì´ ê±¸ì–´ê°„ë‹¤. \n");
+		System.out.println("\t3. ë°€ë‹¹ì„ í•˜ê¸° ìœ„í•´ ì•½ì†ì´ ìˆë‹¤ê³  ê·¸ë¥¼ í˜¼ì ë³´ë‚¸ë‹¤. \n");
+		System.out.println("\t4. ì°¨ê°€ ëŠê¸´ ê²ƒ ê°™ë‹¤ê³  ê±°ì§“ë§ì„ í•œë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -484,17 +484,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ5. Çì¾îÁö°í ³­ µÚ ±×¿¡°Ô ¸Ş¼¼Áö°¡ ¿Ô´Ù. ³ª´Â ¾î¶»°Ô ÇÒ±î? \n");
-		System.out.println("\t1. ÀüÈ­¸¦ ÇÑ´Ù. \n");
-		System.out.println("\t2. ³»ÀÏ ´äÀåÀ» ÇÑ´Ù. \n");
-		System.out.println("\t3. ¼ÖÁ÷ÇÑ ³ªÀÇ °¨Á¤À» ¸»ÇÑ´Ù. \n");
-		System.out.println("\t4. ÀĞ°í ½Ê´Â´Ù. \n\n");
+		System.out.println("\n\nQ5. í—¤ì–´ì§€ê³  ë‚œ ë’¤ ê·¸ì—ê²Œ ë©”ì„¸ì§€ê°€ ì™”ë‹¤. ë‚˜ëŠ” ì–´ë–»ê²Œ í• ê¹Œ? \n");
+		System.out.println("\t1. ì „í™”ë¥¼ í•œë‹¤. \n");
+		System.out.println("\t2. ë‚´ì¼ ë‹µì¥ì„ í•œë‹¤. \n");
+		System.out.println("\t3. ì†”ì§í•œ ë‚˜ì˜ ê°ì •ì„ ë§í•œë‹¤. \n");
+		System.out.println("\t4. ì½ê³  ì‹­ëŠ”ë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -517,24 +517,24 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("Å½»öÀÌ ³¡³µ½À´Ï´Ù. ´ç½ÅÀÇ Á¡¼ö´Â " + score + "Á¡ ÀÔ´Ï´Ù.");
+		System.out.println("íƒìƒ‰ì´ ëë‚¬ìŠµë‹ˆë‹¤. ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” " + score + "ì  ì…ë‹ˆë‹¤.");
 	}
 
 	public static void type_d() {
 		int score = 0;
-		System.out.println("³²ÀÚA Å½»öÀ» ½ÃÀÛÇÕ´Ï´Ù. \n\n");
+		System.out.println("ë‚¨ìA íƒìƒ‰ì„ ì‹œì‘í•©ë‹ˆë‹¤. \n\n");
 		
-		System.out.println("Q1. ±×¿Í ½Ä»ç¸¦ ÇÏ´ø µµÁß, ±×ÀÇ ÀÌ¿¡ ³¤ À½½Ä¹°À» º¸¾Ò´Ù. ³ª´Â ¾î¶»°Ô ÇØ¾ß ÇÒ±î? \n");
-		System.out.println("\t1. ¹Ù·Î »ç½ÇÀ» ¸»ÇØ ÁØ´Ù. \n");
-		System.out.println("\t2. ´ëÃæ µ¹·Á¼­ ¸»ÇØ ÁØ´Ù. \n");
-		System.out.println("\t3. »ç¶û½º·´°Ô Á÷Á¢ »©ÁØ´Ù. \n");
-		System.out.println("\t4. ¹«½ÃÇÑ´Ù. \n\n");
+		System.out.println("Q1. ê·¸ì™€ ì‹ì‚¬ë¥¼ í•˜ë˜ ë„ì¤‘, ê·¸ì˜ ì´ì— ë‚€ ìŒì‹ë¬¼ì„ ë³´ì•˜ë‹¤. ë‚˜ëŠ” ì–´ë–»ê²Œ í•´ì•¼ í• ê¹Œ? \n");
+		System.out.println("\t1. ë°”ë¡œ ì‚¬ì‹¤ì„ ë§í•´ ì¤€ë‹¤. \n");
+		System.out.println("\t2. ëŒ€ì¶© ëŒë ¤ì„œ ë§í•´ ì¤€ë‹¤. \n");
+		System.out.println("\t3. ì‚¬ë‘ìŠ¤ëŸ½ê²Œ ì§ì ‘ ë¹¼ì¤€ë‹¤. \n");
+		System.out.println("\t4. ë¬´ì‹œí•œë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -557,17 +557,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ2. À½½ÄÀ» ´Ù ¸Ô°í ±×°¡ °è»êÀ» Çß´Ù. ÀÌ ¶§ ³ª´Â ¾î¶»°Ô Çàµ¿À» ÇÒ±î? \n");
-		System.out.println("\t1. \"Ä¿ÇÇ´Â Á¦°¡ »ì°Ô¿ä\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t2. \"Àß ¸Ô¾ú¾î¿ä\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t3. \"°èÁÂ¸¦ ºÒ·¯ÁÖ¼¼¿ä.\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t4. ±×³É Á¶¿ëÈ÷ ±â´Ù¸°´Ù. \n\n");
+		System.out.println("\n\nQ2. ìŒì‹ì„ ë‹¤ ë¨¹ê³  ê·¸ê°€ ê³„ì‚°ì„ í–ˆë‹¤. ì´ ë•Œ ë‚˜ëŠ” ì–´ë–»ê²Œ í–‰ë™ì„ í• ê¹Œ? \n");
+		System.out.println("\t1. \"ì»¤í”¼ëŠ” ì œê°€ ì‚´ê²Œìš”\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t2. \"ì˜ ë¨¹ì—ˆì–´ìš”\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t3. \"ê³„ì¢Œë¥¼ ë¶ˆëŸ¬ì£¼ì„¸ìš”.\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t4. ê·¸ëƒ¥ ì¡°ìš©íˆ ê¸°ë‹¤ë¦°ë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -590,17 +590,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ3. ½Ä»ç¸¦ ³¡³½ ÈÄ, ¾îµğ·Î °¡¾ßÇÒ±î? \n");
-		System.out.println("\t1. ÀÌ¾ß±â¸¦ ´õ ³ª´­ ¼ö ÀÖ´Â Ä«Æä \n");
-		System.out.println("\t2. Á» ´õ °¡±î¿öÁú ¼ö ÀÖ´Â ¼úÁı \n");
-		System.out.println("\t3. ³ªÀÇ ¸Å·ÂÀ» º¸¿©ÁÙ ¼ö ÀÖ´Â ³ë·¡¹æ \n");
-		System.out.println("\t4. ±×¿Í ¸ğµç °ÍÀ» ÇÒ ¼ö ÀÖ´Â ±× ¹æ... \n\n");
+		System.out.println("\n\nQ3. ì‹ì‚¬ë¥¼ ëë‚¸ í›„, ì–´ë””ë¡œ ê°€ì•¼í• ê¹Œ? \n");
+		System.out.println("\t1. ì´ì•¼ê¸°ë¥¼ ë” ë‚˜ëˆŒ ìˆ˜ ìˆëŠ” ì¹´í˜ \n");
+		System.out.println("\t2. ì¢€ ë” ê°€ê¹Œì›Œì§ˆ ìˆ˜ ìˆëŠ” ìˆ ì§‘ \n");
+		System.out.println("\t3. ë‚˜ì˜ ë§¤ë ¥ì„ ë³´ì—¬ì¤„ ìˆ˜ ìˆëŠ” ë…¸ë˜ë°© \n");
+		System.out.println("\t4. ê·¸ì™€ ëª¨ë“  ê²ƒì„ í•  ìˆ˜ ìˆëŠ” ê·¸ ë°©... \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -623,17 +623,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ4. µ¥ÀÌÆ®¸¦ ³¡³»°í Áı¿¡ °¡¾ßÇÒ ½Ã°£ÀÌ´Ù. ¸¶Ä§ Áı ¹æÇâÀÌ °°Àºµ¥ ³ª´Â ¾î¶»°Ô ÇØ¾ßÇÒ±î? \n");
-		System.out.println("\t1. \"ÇÑ ÀÜ ÇÒ·¡¿ä~?\"¶ó°í ¸»ÇÑ´Ù. \n");
-		System.out.println("\t2. ´ÙÀ½ ¸¸³²À» ±â¾àÇÏ±â À§ÇØ °°ÀÌ °É¾î°£´Ù. \n");
-		System.out.println("\t3. ¹Ğ´çÀ» ÇÏ±â À§ÇØ ¾à¼ÓÀÌ ÀÖ´Ù°í ±×¸¦ È¥ÀÚ º¸³½´Ù. \n");
-		System.out.println("\t4. Â÷°¡ ²÷±ä °Í °°´Ù°í °ÅÁş¸»À» ÇÑ´Ù. \n\n");
+		System.out.println("\n\nQ4. ë°ì´íŠ¸ë¥¼ ëë‚´ê³  ì§‘ì— ê°€ì•¼í•  ì‹œê°„ì´ë‹¤. ë§ˆì¹¨ ì§‘ ë°©í–¥ì´ ê°™ì€ë° ë‚˜ëŠ” ì–´ë–»ê²Œ í•´ì•¼í• ê¹Œ? \n");
+		System.out.println("\t1. \"í•œ ì” í• ë˜ìš”~?\"ë¼ê³  ë§í•œë‹¤. \n");
+		System.out.println("\t2. ë‹¤ìŒ ë§Œë‚¨ì„ ê¸°ì•½í•˜ê¸° ìœ„í•´ ê°™ì´ ê±¸ì–´ê°„ë‹¤. \n");
+		System.out.println("\t3. ë°€ë‹¹ì„ í•˜ê¸° ìœ„í•´ ì•½ì†ì´ ìˆë‹¤ê³  ê·¸ë¥¼ í˜¼ì ë³´ë‚¸ë‹¤. \n");
+		System.out.println("\t4. ì°¨ê°€ ëŠê¸´ ê²ƒ ê°™ë‹¤ê³  ê±°ì§“ë§ì„ í•œë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -656,17 +656,17 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("\n\nQ5. Çì¾îÁö°í ³­ µÚ ±×¿¡°Ô ¸Ş¼¼Áö°¡ ¿Ô´Ù. ³ª´Â ¾î¶»°Ô ÇÒ±î? \n");
-		System.out.println("\t1. ÀüÈ­¸¦ ÇÑ´Ù. \n");
-		System.out.println("\t2. ³»ÀÏ ´äÀåÀ» ÇÑ´Ù. \n");
-		System.out.println("\t3. ¼ÖÁ÷ÇÑ ³ªÀÇ °¨Á¤À» ¸»ÇÑ´Ù. \n");
-		System.out.println("\t4. ÀĞ°í ½Ê´Â´Ù. \n\n");
+		System.out.println("\n\nQ5. í—¤ì–´ì§€ê³  ë‚œ ë’¤ ê·¸ì—ê²Œ ë©”ì„¸ì§€ê°€ ì™”ë‹¤. ë‚˜ëŠ” ì–´ë–»ê²Œ í• ê¹Œ? \n");
+		System.out.println("\t1. ì „í™”ë¥¼ í•œë‹¤. \n");
+		System.out.println("\t2. ë‚´ì¼ ë‹µì¥ì„ í•œë‹¤. \n");
+		System.out.println("\t3. ì†”ì§í•œ ë‚˜ì˜ ê°ì •ì„ ë§í•œë‹¤. \n");
+		System.out.println("\t4. ì½ê³  ì‹­ëŠ”ë‹¤. \n\n");
 		
 		while(true) {
-			System.out.println("1 ~ 4 Áß ¼±ÅÃÇÏ¼¼¿ä. >> ");
+			System.out.println("1 ~ 4 ì¤‘ ì„ íƒí•˜ì„¸ìš”. >> ");
 			Scanner input=new Scanner(System.in);
 			
 			int choice =0;
@@ -689,36 +689,36 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}
 		
-		System.out.println("Å½»öÀÌ ³¡³µ½À´Ï´Ù. ´ç½ÅÀÇ Á¡¼ö´Â " + score + "Á¡ ÀÔ´Ï´Ù.");
+		System.out.println("íƒìƒ‰ì´ ëë‚¬ìŠµë‹ˆë‹¤. ë‹¹ì‹ ì˜ ì ìˆ˜ëŠ” " + score + "ì  ì…ë‹ˆë‹¤.");
 	}
 	
 	public static void main(String args[]) {
 		
 		int choice=0;
 		
-		System.out.println("³²ÀÚ ¿¬¾Ö ½Ã¹Ä·¹ÀÌ¼Ç(³²¿¬½Ã) \n\n");
+		System.out.println("ë‚¨ì ì—°ì•  ì‹œë®¬ë ˆì´ì…˜(ë‚¨ì—°ì‹œ) \n\n");
 		
 		System.out.println("------------------------------------\n\n");
 		
-		System.out.println("1. ³²ÀÚA - ±×´Â ¼ø¼öÇÑ ¿Ü¸ğ¿Í Æí¾ÈÇÑ ¹Ì¼Ò¸¦ °°°í ÀÖÁö¸¸ Â÷°¡¿î µµ½Ã³²ÀÚ ÀÌ¹ÌÁö, \n"
-				+ "Çö½Ç¼¼°è¿¡¼­´Â ¸»ÀÌ ¾øÁö¸¸ Å°º¸µå¸¦ ÀâÀ¸¸é ¹«ÀûÀÌ µÈ´Ù. \n"
-				+ "±×¸®°í ±×´Â ¹°Æ¼½´¸¦ Ç×»ó °¡Áö°í ´Ù´Ï¸ç ½¬´Â ³¯¿¡´Â È¥ÀÚ Ä¿ÇÇ¸¦ ¸¶½Ã°í ¼îÇÎÇÏ±â¸¦ Áñ±ä´Ù. \n\n");
-		System.out.println("2. ³²ÀÚB - ½Ã°£ÀÌ ¸¹¾Æ ±Ù·¡¿¡ ³²ÀÚ¸¸ ¸¸³ª¸ç ¼ø¼öÇÏ°í ÂøÇÏÁö¸¸ Àç¹Ì°¡ ¾ø´Ù. \n"
-				+ "Ã³À½ º¸´Â ¿©ÀÚ ¾Õ¿¡¼­´Â ¾ó±¼ÀÌ »¡°³Áö°í ¸»À» ´õµëÁö¸¸ Ä£ÇØÁö¸é Æò»ı ¿©»çÄ£À¸·Î ¿¬°áµÈ´Ù. \n"
-				+ "¶ÇÇÑ ¿ä¸®¸¦ ÀßÇÏ¿© Ã¹ ¸¸³²¿¡¼­ Á÷Á¢ ¸¸µç ÃÊÄİ¸´À» ÁÖ´Â ´ÙÁ¤ÇÑ ³²ÀÚ...\n\n");
-		System.out.println("3. ³²ÀÚC - ±×´Â ±×·ìÀÇ ¸®´õ°¡ µÇ±â¸¦ ÁÁ¾ÆÇÏ°í »ç¶÷µéÀÌ ÀÚ½Å¿¡°Ô ÁıÁßÇÏ´Â °ÍÀ» Áñ°Ü \n"
-				+ "Ç×»ó º¹½ÄÈ£ÈíÀ¸·Î ¸»ÇÏ¿© ¸ñ¼Ò¸®°¡ Å©´Ù. ÇÑ ¿©ÀÚ¿¡°Ô ¸ğµç »ç¶ûÀ» ÁÖÁö¸¸ ±× ¿Ü ¿©ÀÚµéÀÇ »ç¶ûÀ» ¿øÇÏ´Â ³²ÀÚ, \n"
-				+ "±×ÀÇ ¼ø¼öÇÑ ´«¸Á¿ï ³Ê¸Ó·Î À½¶õÇÑ µµÈ­»ìÀÌ ´À²¸Áø´Ù... \n\n");
-		System.out.println("4. ³²ÀÚD - ±×´Â ÁØ¼öÇÑ ¿Ü¸ğ¿Í Å°¿¡ µµÀüÀûÀÎ Á¤½ÅÀ» °¡Áö°í ÀÖ´Â Â÷µµ³²! \n"
-				+ "»ç±³¼ºÀÌ ¸Å¿ì ¶Ù¾î³ªÁö¸¸ ¼ÓÁ¤ÀÌ ºÎÁ·ÇÏ¿© ±íÀº °ü°è·Î ÀÌ¾îÁö±â°¡ Èûµé´Ù. \n"
-				+ "ÆòÀÏ¿¡´Â ÀÚ±â°³¹ßÀ», ºÒ±İ¿¡´Â ¼½½ÃÇÑ ¿©¼ºµé°ú ½Ã°£À» º¸³»¸ç ¿¬¾Ö °æÇè 15¹øÀÇ ¼ÒÀ¯ÀÚ.\n\n");
+		System.out.println("1. ë‚¨ìA - ê·¸ëŠ” ìˆœìˆ˜í•œ ì™¸ëª¨ì™€ í¸ì•ˆí•œ ë¯¸ì†Œë¥¼ ê°™ê³  ìˆì§€ë§Œ ì°¨ê°€ìš´ ë„ì‹œë‚¨ì ì´ë¯¸ì§€, \n"
+				+ "í˜„ì‹¤ì„¸ê³„ì—ì„œëŠ” ë§ì´ ì—†ì§€ë§Œ í‚¤ë³´ë“œë¥¼ ì¡ìœ¼ë©´ ë¬´ì ì´ ëœë‹¤. \n"
+				+ "ê·¸ë¦¬ê³  ê·¸ëŠ” ë¬¼í‹°ìŠˆë¥¼ í•­ìƒ ê°€ì§€ê³  ë‹¤ë‹ˆë©° ì‰¬ëŠ” ë‚ ì—ëŠ” í˜¼ì ì»¤í”¼ë¥¼ ë§ˆì‹œê³  ì‡¼í•‘í•˜ê¸°ë¥¼ ì¦ê¸´ë‹¤. \n\n");
+		System.out.println("2. ë‚¨ìB - ì‹œê°„ì´ ë§ì•„ ê·¼ë˜ì— ë‚¨ìë§Œ ë§Œë‚˜ë©° ìˆœìˆ˜í•˜ê³  ì°©í•˜ì§€ë§Œ ì¬ë¯¸ê°€ ì—†ë‹¤. \n"
+				+ "ì²˜ìŒ ë³´ëŠ” ì—¬ì ì•ì—ì„œëŠ” ì–¼êµ´ì´ ë¹¨ê°œì§€ê³  ë§ì„ ë”ë“¬ì§€ë§Œ ì¹œí•´ì§€ë©´ í‰ìƒ ì—¬ì‚¬ì¹œìœ¼ë¡œ ì—°ê²°ëœë‹¤. \n"
+				+ "ë˜í•œ ìš”ë¦¬ë¥¼ ì˜í•˜ì—¬ ì²« ë§Œë‚¨ì—ì„œ ì§ì ‘ ë§Œë“  ì´ˆì½œë¦¿ì„ ì£¼ëŠ” ë‹¤ì •í•œ ë‚¨ì...\n\n");
+		System.out.println("3. ë‚¨ìC - ê·¸ëŠ” ê·¸ë£¹ì˜ ë¦¬ë”ê°€ ë˜ê¸°ë¥¼ ì¢‹ì•„í•˜ê³  ì‚¬ëŒë“¤ì´ ìì‹ ì—ê²Œ ì§‘ì¤‘í•˜ëŠ” ê²ƒì„ ì¦ê²¨ \n"
+				+ "í•­ìƒ ë³µì‹í˜¸í¡ìœ¼ë¡œ ë§í•˜ì—¬ ëª©ì†Œë¦¬ê°€ í¬ë‹¤. í•œ ì—¬ìì—ê²Œ ëª¨ë“  ì‚¬ë‘ì„ ì£¼ì§€ë§Œ ê·¸ ì™¸ ì—¬ìë“¤ì˜ ì‚¬ë‘ì„ ì›í•˜ëŠ” ë‚¨ì, \n"
+				+ "ê·¸ì˜ ìˆœìˆ˜í•œ ëˆˆë§ìš¸ ë„ˆë¨¸ë¡œ ìŒë€í•œ ë„í™”ì‚´ì´ ëŠê»´ì§„ë‹¤... \n\n");
+		System.out.println("4. ë‚¨ìD - ê·¸ëŠ” ì¤€ìˆ˜í•œ ì™¸ëª¨ì™€ í‚¤ì— ë„ì „ì ì¸ ì •ì‹ ì„ ê°€ì§€ê³  ìˆëŠ” ì°¨ë„ë‚¨! \n"
+				+ "ì‚¬êµì„±ì´ ë§¤ìš° ë›°ì–´ë‚˜ì§€ë§Œ ì†ì •ì´ ë¶€ì¡±í•˜ì—¬ ê¹Šì€ ê´€ê³„ë¡œ ì´ì–´ì§€ê¸°ê°€ í˜ë“¤ë‹¤. \n"
+				+ "í‰ì¼ì—ëŠ” ìê¸°ê°œë°œì„, ë¶ˆê¸ˆì—ëŠ” ì„¹ì‹œí•œ ì—¬ì„±ë“¤ê³¼ ì‹œê°„ì„ ë³´ë‚´ë©° ì—°ì•  ê²½í—˜ 15ë²ˆì˜ ì†Œìœ ì.\n\n");
 		
 		while(true) {
-			System.out.println("´ç½ÅÀÌ ¸¸³ª°í ½ÍÀº ³²ÀÚ Å¸ÀÔÀº ? \n"
-					+ "(1 ~ 4 Áß ÇÏ³ª ¼±ÅÃ) >> ");
+			System.out.println("ë‹¹ì‹ ì´ ë§Œë‚˜ê³  ì‹¶ì€ ë‚¨ì íƒ€ì…ì€ ? \n"
+					+ "(1 ~ 4 ì¤‘ í•˜ë‚˜ ì„ íƒ) >> ");
 			Scanner input=new Scanner(System.in);
 		
 			choice=input.nextInt();
@@ -739,7 +739,7 @@ public class VariableExam_java {
 				break;
 			}
 			else
-				System.out.println("¡Ø 1, 2, 3, 4 Áß ÇÏ³ª¸¸ ¼±ÅÃÇØÁÖ¼¼¿ä ¡Ø\n\n");
+				System.out.println("â€» 1, 2, 3, 4 ì¤‘ í•˜ë‚˜ë§Œ ì„ íƒí•´ì£¼ì„¸ìš” â€»\n\n");
 		}		
 	}
 }

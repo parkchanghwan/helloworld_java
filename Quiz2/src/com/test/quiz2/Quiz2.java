@@ -3,7 +3,7 @@ package com.test.quiz2;
 import java.util.Scanner;
 
 public class Quiz2 {
-	public static void main(String args[]){
+	public static void main(String[] args){
 		int start1, start2, inc1, inc2;
 	    char char1, char2;
 	    Scanner scanner = new Scanner(System.in);
